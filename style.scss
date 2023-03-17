@@ -1,8 +1,10 @@
 @use './styles/global';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@700&display=swap');
 
 html {
-    background-color: aqua;
+    background-color: var(--white-color);
     color: var(--black-color);
+    
 }
 
 body,
@@ -23,10 +25,17 @@ a {
     text-decoration: none;
 }
 
+button {
+background-color: transparent;
+border: none;
+outline: none;
+}
+
 li {
     list-style: none;
 }
 
 .container{
 max-width: 1170px;
+
 }

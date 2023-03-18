@@ -9,12 +9,7 @@ footer {
     align-items: center;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--gap);
-}
+
 
 
 
@@ -38,10 +33,3 @@ header .container {
     }
 }
 
-.navigation ul{
-    display: flex;
-    gap: var(--gap);
-
-    font: var(--smaller-font);
-    text-transform: uppercase;
-}

@@ -4,7 +4,7 @@
 html {
     background-color: var(--white-color);
     color: var(--black-color);
-    
+
 }
 
 body,
@@ -16,7 +16,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+button {
     margin: 0;
     padding: 0;
 }
@@ -26,16 +27,16 @@ a {
 }
 
 button {
-background-color: transparent;
-border: none;
-outline: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
 
 li {
     list-style: none;
 }
 
-.container{
-max-width: 1170px;
+.container {
+    max-width: 1170px;
 
 }

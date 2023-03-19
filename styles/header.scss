@@ -1,16 +1,43 @@
+.top-banner {
+  width: 100%;
+  height: 75px;
+  background-image: url(./../img/top_nav_background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -20px;
+}
+
 header {
-    .header__buttons, .navigation ul {
-        display: flex;
-        gap: var(--gap);
-    }
-    .navigation ul{
-        font: var(--smaller-font);
-        text-transform: uppercase;
-    }
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: var(--gap);
-    }
+  --top-radius: 25px;
+  background-color: var(--white-color);
+  border-top-right-radius: var(--top-radius);
+  border-top-left-radius: var(--top-radius);
+
+  padding: var(--gap) 0;
+
+  .header__buttons {
+    display: flex;
+    gap: var(--gap);
+  }
+
+  .navigation ul {
+    display: flex;
+    gap: calc(var(--gap)*2);
+    font: var(--smaller-font);
+    text-transform: uppercase;
+  }
+
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gap);
+  }
+
+  .header__logo {
+    width: 150px;
+    height: 35px;
+  }
+  
 }

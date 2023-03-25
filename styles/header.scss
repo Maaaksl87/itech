@@ -17,6 +17,7 @@ header {
   padding: var(--gap) 0;
 
   .header__buttons {
+    width: 208px;
     display: flex;
     gap: var(--gap);
   }
@@ -39,5 +40,17 @@ header {
     width: 150px;
     height: 35px;
   }
-  
+
+}
+
+.navigation ul {
+  display: flex;
+  gap: calc(var(--gap)*2);
+  font: var(--smaller-font);
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 150px;
+  height: 35px;
 }
